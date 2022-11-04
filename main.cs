@@ -2,6 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
+    Console.WriteLine("<<<<Created by Luísa Cavalheiro>>>>");
     string opt= "S";
     double gas, alc, vant;
     while (opt.Equals ("S") || opt.Equals("s")){
@@ -20,9 +21,9 @@ class Program {
       }else {
         Console.WriteLine(">>>nVocê deve abastecer com álcool.");
       }
-      Console.Write("Deseja fazer outro cálculo? (S/N) ");
+      Console.Write("=>Deseja fazer outro cálculo? (S/N) ");
       opt = Console.ReadLine();
     }
-    Console.WriteLine("Fim do Programa");
+    Console.WriteLine("-----Fim do Programa - By Luisa Cavalheiro-----");
   }
 }
